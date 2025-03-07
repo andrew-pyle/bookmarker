@@ -43,7 +43,7 @@ We propose a CLI system to keep track of your bookmarks:
 1. [ ] Module 2 — C Strings & C++ String functions
 
 - Design
-  - Bookmark: URL, Notes, Date Created
+  - Bookmark: URL, Notes
   - Bookmark is a `vector<string>`
   - Persistent data with hardcoded TSV-format string;
 - New Features
@@ -51,12 +51,12 @@ We propose a CLI system to keep track of your bookmarks:
 - Refactor
   - (none)
 - Curriculum
-  - ??
+  - Using string functions to parse a TSV row
 
 1. [ ] Module 3 — Streams & Files
 
 - Design
-  - Bookmark: URL, Notes, Date Created
+  - Bookmark: URL, Notes
   - Bookmark is a `vector<string>`
   - Persistent data with TSV file
 - New Features
@@ -73,9 +73,9 @@ We propose a CLI system to keep track of your bookmarks:
   - Bookmark Database is a `struct`
   - Persistent data with TSV file
 - New Features
-  - Create Bookmark Database `struct` to hold all Bookmarks in-memory
+  - Add Date Created to Bookmark entity
 - Refactor
-  - Replace the Bookmark data type `vector<string>` with a struct
+  - Replace the Bookmark data type `vector<string>` with a `vector<Bookmark>`
 
 1. [ ] Module 4 — Classes & Objects
 
