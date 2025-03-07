@@ -27,20 +27,20 @@ We propose a CLI system to keep track of your bookmarks:
 
 ### Stages
 
-1. Module 1 — Arrays
-
-_(Not related to Module 1, but the students can do this at this stage)_
+1. [x] Module 1 — Arrays
 
 - Design
-  - Bookmark: URL, Notes, Date Created
-  - Bookmark is a `vector<string>`
+  - Bookmark: URL, Notes
+  - Bookmark is Parallel Vectors, URL & Notes `vector<string>`
 - New Features
   - Read bookmark inputs from user input with `cin` (loop)
   - Output all bookmarks with `cout`
 - Refactor
   - (none)
+- Curriculum
+  - Not related to Module 1, but the students can do this at this stage
 
-1. Module 2 — C Strings & C++ String functions
+1. [ ] Module 2 — C Strings & C++ String functions
 
 - Design
   - Bookmark: URL, Notes, Date Created
@@ -50,8 +50,10 @@ _(Not related to Module 1, but the students can do this at this stage)_
   - Parse an existing "database" TSV-format string into Bookmarks
 - Refactor
   - (none)
+- Curriculum
+  - ??
 
-1. Module 3 — Streams & Files
+1. [ ] Module 3 — Streams & Files
 
 - Design
   - Bookmark: URL, Notes, Date Created
@@ -63,7 +65,7 @@ _(Not related to Module 1, but the students can do this at this stage)_
 - Refactor
   - Read persistent data from file instead of hardcoded string
 
-1. Module 4? — Structs
+1. [ ] Module 4? — Structs
 
 - Design
   - Bookmark: URL, Notes, Date Created
@@ -75,7 +77,7 @@ _(Not related to Module 1, but the students can do this at this stage)_
 - Refactor
   - Replace the Bookmark data type `vector<string>` with a struct
 
-1. Module 4 — Classes & Objects
+1. [ ] Module 4 — Classes & Objects
 
 - Design
   - Bookmark: URL, Notes, Date Created
@@ -89,7 +91,7 @@ _(Not related to Module 1, but the students can do this at this stage)_
   - An `add` method to create Bookmark from user input
   - A `persist` method for file-writing
 
-1. Module 5 — More Classes
+1. [ ] Module 5 — More Classes
 
 - Design
   - Bookmark: URL, Notes, Date Created
@@ -103,7 +105,7 @@ _(Not related to Module 1, but the students can do this at this stage)_
     - Pull the class into the executable which adds a new bookmark
     - Create new executable which will search on the `cin`, not add a new bookmark
 
-1. Module 6 — Structs & Pointers
+1. [ ] Module 6 — Structs & Pointers
 
 - Design
   - Bookmark: URL, Notes, Date Created
@@ -117,7 +119,7 @@ _(Not related to Module 1, but the students can do this at this stage)_
 - Refactor
   - (none)
 
-1. Extra Features
+1. [ ] Extra Features
 
 - Design
   - Bookmark: URL, Notes, Date Created
